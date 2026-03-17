@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSignalR", "src\NotificationSignalR\NotificationSignalR.csproj", "{B87A22E8-A8EF-4A95-BE08-5B0E6E9C99A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationAPI", "src\NotificationAPI\NotificationAPI.csproj", "{5D3A7065-4D26-4A9B-9704-DDC6A1D4B8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayAPI", "src\GatewayAPI\GatewayAPI.csproj", "{0CD46336-69AF-4645-96B2-03C61D5879F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B87A22E8-A8EF-4A95-BE08-5B0E6E9C99A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87A22E8-A8EF-4A95-BE08-5B0E6E9C99A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87A22E8-A8EF-4A95-BE08-5B0E6E9C99A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87A22E8-A8EF-4A95-BE08-5B0E6E9C99A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3A7065-4D26-4A9B-9704-DDC6A1D4B8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3A7065-4D26-4A9B-9704-DDC6A1D4B8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3A7065-4D26-4A9B-9704-DDC6A1D4B8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3A7065-4D26-4A9B-9704-DDC6A1D4B8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD46336-69AF-4645-96B2-03C61D5879F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD46336-69AF-4645-96B2-03C61D5879F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD46336-69AF-4645-96B2-03C61D5879F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD46336-69AF-4645-96B2-03C61D5879F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
